@@ -14,8 +14,8 @@ const App = () => {
        <div className="App">
          
          <button onClick={() => setCount(0)}>Reset Button</button>
-         <button onClick={() => (count >= 100 ? "" : setCount(count + 5))}>Increase Button</button>
-         <button onClick={() => (count <= 0 ? "" : setCount(count - 5))}>Decrease Button</button>
+         <button onClick={() => (count >= 100 ? "" : setCount(count + 1))}>Increase Button</button>
+         <button onClick={() => (count <= 0 ? "" : setCount(count - 1))}>Decrease Button</button>
        </div>
     </div>
   )
